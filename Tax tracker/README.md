@@ -19,12 +19,3 @@ It imports trade history from a CSV export, tracks individual purchase parcels, 
 * Chronological auto-sorting: Trades are processed in exact historical order regardless of CSV row order.
 * Tax minimisation (HIFO) strategy: Allocates sales against highest cost base parcels first to reduce taxable capital gains.
 * ATO myTax ready output: Prints final totals mapped directly to the **Total Current Year Capital Gains** and **Net Capital Gains** fields on myTax.
-
----
-
-## Setup & Usage
-
-1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/josiefft/python-finance-projects.git](https://github.com/josiefft/python-finance-projects.git)
-   cd python-finance-projects/"Tax tracker"
